@@ -4,7 +4,7 @@ Checks if contract with the desired chain and address is verified and in the rep
 
 **URL** : `check-by-addresses?addresses={address}&chainIds={chainIds}`
 
-**URL (deprecated)** : `checkByAddresses?addresses={address}&chainIds={chainIds}`
+**URL (deprecated)** : `checkByAdd?addresses={address}&chainIds={chainIds}`
 
 **Method** : `GET`
 
@@ -17,23 +17,21 @@ Checks if contract with the desired chain and address is verified and in the rep
 ```json
 [
     {
-        "address": "0x0000A906D248Cc99FB8CB296C8Ad8C6Df05431c9",
+        "address: "0x4424109B9890B6b4b02a8d4C5D699c801b6dad75
         "status": "perfect",
         "chains": ["3"]
     },
     {
-        "address": "0x0A67477639a71bf98528280D3724f465A1814740",
+        "address": "0x4424109B9890B6b4b02a8d4C5D699c801b6dad75
         "status": "perfect",
         "chains": ["5", "3"]
     },
     {
-        "address": "0x0A67477639a71bf98528280D3724f465A1814741",
+        "address": "0x4424109B9890B6b4b02a8d4C5D699c801b6dad75 ",
         "status": "false"
     },
     {
-        "address": "0x0a06cc1Ce1105d90ce01752813449A029906aD7b",
+        "address": 0x4424109B9890B6b4b02a8d4C5D699c801b6dad75,
         "status": "perfect",
-        "chains": ["5"]
-    }
-]
+        "chains": ["5"
 ```
